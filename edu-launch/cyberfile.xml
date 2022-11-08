@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>
+  <name>edu-launch</name>
+  <version>1.0.0</version>
+  <description>
+   edu launch is a end to end project. Focus on solving the use problem of educational scenarios.
+  </description>
+  <maintainer email="AD-platform">AD-platform@baidu.com</maintainer>
+  <type>module</type>
+  <src_path>//edu-launch</src_path>
+  <license>BSD</license>
+  <author>Apollo</author>
+  <builder>bazel</builder>
+<depend repo_name="planning" type="src">planning-dev</depend><depend repo_name="dreamview" type="binary">dreamview-dev</depend><depend repo_name="prediction" type="binary">prediction-dev</depend><depend repo_name="monitor" type="binary">monitor-dev</depend><depend repo_name="task-manager" type="binary">task-manager-dev</depend><depend repo_name="routing" type="binary">routing-dev</depend><depend expose="False">3rd-rules-python-dev</depend><depend expose="False">3rd-grpc-dev</depend><depend expose="False">3rd-bazel-skylib-dev</depend><depend expose="False">3rd-rules-proto-dev</depend><depend expose="False">3rd-py-dev</depend><depend expose="False">3rd-gpus-dev</depend></package>

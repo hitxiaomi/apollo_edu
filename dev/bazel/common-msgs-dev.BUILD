@@ -1,0 +1,1 @@
+/opt/apollo/neo/packages/common-msgs-dev/latest/common-msgs-dev.BUILD
